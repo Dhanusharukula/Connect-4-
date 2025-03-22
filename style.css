@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #F58529, #DD2A7B, #8134AF, #515BD4);
+    font-size: x-large;
+}
+
+#board {
+    height: 600px;
+    width: 700px;
+    background-color: rgb(55, 0, 255);
+    border: 10px solid rgb(0, 0, 0);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
